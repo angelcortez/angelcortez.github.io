@@ -1,0 +1,54 @@
+
+body,html{
+    background: rgb(10,51,139);
+    background: linear-gradient(180deg, rgba(10,51,139,1) 0%, rgba(10,51,139,1) 50%, rgba(255,255,255,1) 100%);
+}
+
+.auth-box{
+    height: 280px;
+}
+
+.logoPersonalizado{
+	/* height: 62px!important; */
+    width: 128px!important;
+}
+
+.contenedorLogo{
+    margin-bottom: 20%;
+}
+
+.divBtnHome{
+    width: 50%;
+    height: 50%;
+}
+
+#btnOperaciones{
+    border: 1px solid #efecec;
+    border-radius: 10px 0px 0px 0px;
+}
+#btnCamara{
+    border: 1px solid #efecec;
+    border-radius: 0px 10px 0px 0px;
+}
+#btnUbicacion{
+    border: 1px solid #efecec;
+    border-radius: 0px 0px 0px 10px;
+}
+#btnPerfil{
+    border: 1px solid #efecec;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.auth-box:before {
+    content: none;
+}
+
+.auth-box {
+    width: 75%;
+}
+
+.fontDescriptionBtn{
+    font-size: 13px;
+    color: gray;
+    margin: 0px 5px 0px 5px;
+}

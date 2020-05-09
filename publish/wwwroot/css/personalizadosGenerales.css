@@ -1,0 +1,35 @@
+.fontWhite{
+    color:white;
+}
+
+.borderRadius10{
+    border-radius: 10px;
+}
+
+.fontDarkBlue{
+    color:#0F2F83;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.fontBold{
+    font-weight: bold;
+}
+
+.alignCenter{
+    text-align: center;
+}
+
+.paddingTop10{
+    padding-top: 10px;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.marginZero{
+    margin:0px;
+}
