@@ -11,8 +11,8 @@ class Camara {
 
     encender() {
 
-        var front = false;
-        var constraints = { audio: false, video: { width: 1280, height: 720, facingMode: (front? "user" : "environment") } };
+      
+        var constraints = { audio: false, video: { width: 1280, height: 720, facingMode: "user" } };
 
         navigator.mediaDevices.getUserMedia(constraints).then( stream => {
 
