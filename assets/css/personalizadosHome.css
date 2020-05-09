@@ -68,6 +68,8 @@ body,html{
     top: 0%;
     height: 100%;
     display: none;
+    background: rgb(10,51,139);
+    background: linear-gradient(180deg, rgba(10,51,139,1) 0%, rgba(10,51,139,1) 50%, rgba(255,255,255,1) 100%);
 }
   
   .camara-contenedor button {

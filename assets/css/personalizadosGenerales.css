@@ -41,3 +41,7 @@ a:hover{
 .displayBlock{
     display: block;
 }
+
+.displayFlex{
+    display: flex;
+}
