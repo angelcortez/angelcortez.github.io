@@ -34,7 +34,6 @@ btnPhoto.on('click', () => {
     contenedorCamara.addClass('displayBlock');
 
     camara.encender();
-    
 
 });
 

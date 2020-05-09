@@ -15,8 +15,8 @@ class Camara {
         var constraints = { audio: false, 
             video: { 
                 width: { ideal: 360 },
-                height: { ideal: 640 }, 
-                facingMode: { exact: "environment" } } };
+                height: { ideal: 580 }, 
+                facingMode: { exact: "user" } } };
 
         navigator.mediaDevices.getUserMedia(constraints).then( stream => {
 
