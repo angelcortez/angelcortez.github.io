@@ -12,14 +12,18 @@ class Camara {
     encender() {
 
       
-        var constraints = { audio: false, video: { width: 1280, height: 720, facingMode: { exact: "environment" } } };
+        var constraints = { audio: false, 
+            video: { 
+                width: { ideal: 360 },
+                height: { ideal: 640 }, 
+                facingMode: { exact: "environment" } } };
 
         navigator.mediaDevices.getUserMedia(constraints).then( stream => {
 
             this.videoNode.srcObject = stream;
             this.stream = stream;
 
-        });
+        });        
 
     }
 
