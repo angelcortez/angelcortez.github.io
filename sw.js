@@ -18,6 +18,7 @@ const APP_SHELL = [
     'assets/img/login.png',
     'assets/img/logo_home_blanco.png',
     'assets/js/app.js',
+    'assets/js/camera-class.js',
     'assets/js/sw-utils.js',
     'assets/js/showHidePassword.js',
     'assets/css/personalizadosHome.css',
@@ -31,7 +32,8 @@ const APP_SHELL_INMUTABLE = [
     'assets/vendor/font-awesome/css/font-awesome.min.css',
     'assets/vendor/linearicons/style.css',
     'assets/css/main.css',
-    '//fonts.googleapis.com/css?family=Open+Sans'
+    '//fonts.googleapis.com/css?family=Open+Sans',
+    'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'
 ];
 
 self.addEventListener('install', e => {

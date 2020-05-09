@@ -33,3 +33,11 @@ a:hover{
 .marginZero{
     margin:0px;
 }
+
+.displayNone{
+    display: none;
+}
+
+.displayBlock{
+    display: block;
+}
