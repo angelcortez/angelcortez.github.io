@@ -11,10 +11,10 @@ class Camara {
 
     encender() {
 
-        navigator.mediaDevices.getUserMedia({
-            audio: false,
-            video: { width: 300, height: 300 }
-        }).then( stream => {
+        var front = false;
+        var constraints = { audio: false, video: { width: 1280, height: 720, facingMode: (front? "user" : "environment") } };
+
+        navigator.mediaDevices.getUserMedia(constraints).then( stream => {
 
             this.videoNode.srcObject = stream;
             this.stream = stream;
