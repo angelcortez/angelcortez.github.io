@@ -8,7 +8,7 @@ class Camara {
         console.log('Camara Class init');
     }
 
-   
+
     encender() {
 
       

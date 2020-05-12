@@ -1,5 +1,3 @@
-
-
 var url = window.location.href;
 var swLocation = '/pruebasPWAEvidencias/sw.js';
 
@@ -49,8 +47,9 @@ btnCancelarFoto.on('click', () => {
         btn.addEventListener('click', function(){
           track.applyConstraints({
             advanced: [{torch: true}]
-          });
-          
+          })
+        });
+
 });
 
 
