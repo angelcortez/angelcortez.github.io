@@ -39,12 +39,18 @@ btnPhoto.on('click', () => {
 
 btnCancelarFoto.on('click', () => {
 
-    console.log('Apagando camara');
-    contenedorCamara.removeClass('displayBlock');
-    contenedorCamara.addClass('displayNone');
+    // console.log('Apagando camara');
+    // contenedorCamara.removeClass('displayBlock');
+    // contenedorCamara.addClass('displayNone');
 
-    camara.apagar();
+    // camara.apagar();
 
+    const btn = document.querySelector('.switch');
+        btn.addEventListener('click', function(){
+          track.applyConstraints({
+            advanced: [{torch: true}]
+          });
+          
 });
 
 
