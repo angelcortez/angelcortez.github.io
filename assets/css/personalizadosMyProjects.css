@@ -1,0 +1,100 @@
+/* 
+body,html{
+    background: rgb(10,51,139);
+    background: linear-gradient(180deg, rgba(10,51,139,1) 0%, rgba(10,51,139,1) 50%, rgba(255,255,255,1) 100%);
+} */
+
+
+.backgroundInferior{
+    background-color: #fff;
+    width: 100%;
+    height: 88%;
+    float: left;
+}
+
+.backgroundSuperior{
+    background: rgb(10,51,139);
+    background: linear-gradient(90deg, rgba(10,51,139,1) 0%, rgba(66,119,233,1) 75%, rgba(86,133,233,1) 100%);
+    width: 100%;
+    height: 12%;
+    float: left;
+}
+
+.txtSearch{
+    margin-right: -3px;
+    width: 85%;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.searchBtn{
+    padding: 5px 5px 5px 5px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 15px;
+}
+
+.btnMenuMyProjects{
+    width: 90%;
+    height: 80px;
+    float: left;
+    margin: 5%;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    color: rgba(79, 80, 83, 0.79);;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.spanBtnMenuMyProjects{
+    font-size: 13px;
+    width: 100%;
+    float: left;
+}
+
+#btnGaleria{
+    margin-top:30px;
+}
+
+.btnBackPage{
+    width: 10px;
+    height: 15px;
+    float: left;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+
+.titleSection{
+    width: 95%;
+}
+
+/* iphone X */
+@media (height: 812px) {
+
+    .backgroundSuperior{
+        height: 10%;
+    }
+
+    .backgroundInferior{
+        height:90%;
+    }
+}
+
+/* iphone 5/SE */
+@media (height: 568px) {
+
+    .backgroundSuperior{
+        height: 13%;
+    }
+
+    .backgroundInferior{
+        height:87%;
+    }
+}

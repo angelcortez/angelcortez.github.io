@@ -45,3 +45,8 @@ a:hover{
 .displayFlex{
     display: flex;
 }
+
+.padTop20{
+    padding-top: 20px;
+}
+

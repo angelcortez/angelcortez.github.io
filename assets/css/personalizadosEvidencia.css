@@ -1,0 +1,147 @@
+.backgroundInferior{
+    background-color: #fff;
+    width: 100%;
+    height: 88%;
+    float: left;
+}
+
+.backgroundSuperior{
+    background: rgb(10,51,139);
+    background: linear-gradient(90deg, rgba(10,51,139,1) 0%, rgba(66,119,233,1) 75%, rgba(86,133,233,1) 100%);
+    width: 100%;
+    height: 12%;
+    float: left;
+}
+
+
+.btnBackPage{
+    width: 10px;
+    height: 15px;
+    float: left;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+
+.titleSection{
+    width: 95%;
+}
+
+.spanColorEvidencias{
+    color:#909596;
+    font-size: 18px;
+}
+
+.containerInfoEvidencia{
+    display: inline-block;
+    height: 55px;
+    width: 100%;
+    border-bottom: 1px solid #E5E5E5;
+    padding: 5px 0px 0px 15px;
+}
+
+.btnGuardarEvidencia{
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+    color:white;
+    border-radius: 10px;
+    float: left;
+    padding-top: 2px;
+    margin-top: 5px;
+}
+
+.btnAgregarImagen {
+    width: 200px;
+    height: 30px;
+    background-color: #484A4A;
+    color: white;
+    border-radius: 10px;
+    padding-top: 3px;
+    margin-top: 8px;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.containerBtnAgregarImagen{
+    width: 100%;
+    height: 50px;
+    display: block;
+}
+
+.titleSectionEvidencia {
+    width: 60%;
+    float: left;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.divLeft{
+    width: 50%;
+    float: left;
+}
+
+.divRight{
+    width: 50%;
+    float: left;
+}
+
+.containerDescripcion{
+    height: 100px;
+}
+
+
+.containerImagenesEvidencias{
+    width: 100%;
+    height: auto;
+    padding: 0px 20px 20px 20px;
+}
+
+.opcionEditar{
+    width:49%;
+    display: inline-block;
+    text-align: right;
+    padding-right: 20px;
+    height: 40px;
+    padding-top: 10px;
+    color:#484A4A;
+    font-size: 15px;
+}
+
+.opcionEliminar{
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+    height: 40px;
+    padding-top: 10px;
+    color:#484A4A;
+    font-size: 15px;
+}
+
+.vertical-align-wrap {
+    display: block;
+}
+/* iphone X */
+@media (height: 812px) {
+
+    .backgroundSuperior{
+        height: 10%;
+    }
+
+    .backgroundInferior{
+        height:90%;
+    }
+}
+
+/* iphone 5/SE */
+@media (height: 568px) {
+
+    .backgroundSuperior{
+        height: 13%;
+    }
+
+    .backgroundInferior{
+        height:87%;
+    }
+}

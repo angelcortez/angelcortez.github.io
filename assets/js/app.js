@@ -26,29 +26,34 @@ const camara = new Camara( $('#player')[0] );
 // Boton de la camara
 // usamos la funcion de fleca para prevenir
 // que jQuery me cambie el valor del this
-btnPhoto.on('click', () => {
+// btnPhoto.on('click', () => {
 
-    console.log('Inicializar camara');
-    contenedorCamara.addClass('displayBlock');
+//     console.log('Inicializar camara');
+//     contenedorCamara.addClass('displayBlock');
 
+//     camara.encender();
+
+// });
+
+window.onload = function() {
+    this.console.log('camara');
     camara.encender();
-
-});
+};
 
 btnCancelarFoto.on('click', () => {
 
-    // console.log('Apagando camara');
-    // contenedorCamara.removeClass('displayBlock');
-    // contenedorCamara.addClass('displayNone');
+    console.log('Apagando camara');
+    contenedorCamara.removeClass('displayBlock');
+    contenedorCamara.addClass('displayNone');
 
-    // camara.apagar();
+    camara.apagar();
 
-    const btn = document.querySelector('.switch');
-        btn.addEventListener('click', function(){
-          track.applyConstraints({
-            advanced: [{torch: true}]
-          })
-        });
+    // const btn = document.querySelector('.switch');
+    //     btn.addEventListener('click', function(){
+    //       track.applyConstraints({
+    //         advanced: [{torch: true}]
+    //       })
+    //     });
 
 });
 

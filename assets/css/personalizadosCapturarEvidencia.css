@@ -1,0 +1,149 @@
+.backgroundInferior{
+    background-color: #fff;
+    width: 100%;
+    height: 88%;
+    float: left;
+}
+
+.backgroundSuperior{
+    background: rgb(10,51,139);
+    background: linear-gradient(90deg, rgba(10,51,139,1) 0%, rgba(66,119,233,1) 75%, rgba(86,133,233,1) 100%);
+    width: 100%;
+    height: 12%;
+    float: left;
+}
+
+
+.btnBackPage{
+    width: 10px;
+    height: 15px;
+    float: left;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+
+.titleSection{
+    width: 95%;
+}
+
+.spanColorEvidencias{
+    color:#909596;
+    font-size: 18px;
+}
+
+.containerInfoEvidencia{
+    display: inline-block;
+    height: 55px;
+    width: 100%;
+    border-bottom: 1px solid #E5E5E5;
+    padding: 5px 0px 0px 15px;
+}
+
+.btnGuardarEvidencia{
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+    color:white;
+    border-radius: 10px;
+    float: left;
+    padding-top: 2px;
+    margin-top: 5px;
+}
+
+.btnAgregarImagen {
+    width: 200px;
+    height: 30px;
+    background-color: #484A4A;
+    color: white;
+    border-radius: 10px;
+    padding-top: 3px;
+    margin-top: 8px;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.containerBtnAgregarImagen{
+    width: 100%;
+    height: 50px;
+    display: block;
+}
+
+.titleSectionCapturarEvidencia {
+    width: 90%;
+    float: left;
+    text-align: center;
+    padding-left: 25px;
+}
+
+.vertical-align-wrap {
+    display: block;
+}
+
+/*Cámara*/
+.divBtnCamera{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+#tomar-foto-btn{
+    height: 45px;
+    width: 190px;
+    border-radius: 15px;
+    background-color: #0F2F83;
+    color:#fff;
+}
+
+#cancelar-foto-btn{
+    height: 45px;
+    width: 190px;
+    border-radius: 15px;
+    background-color: #0F2F83;
+    color:#fff;
+}
+
+#player{
+    margin-bottom: 5px;;
+    width: 100%;
+}
+.camara-contenedor {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+  
+  #fotoTemp {
+    width: 300px;
+    height: 300px;
+    display: none;
+  }
+  
+  .foto-mensaje {
+    width: 150px;
+    height: 150px;
+  }
+  
+/* iphone X */
+@media (height: 812px) {
+
+    .backgroundSuperior{
+        height: 10%;
+    }
+
+    .backgroundInferior{
+        height:90%;
+    }
+}
+
+/* iphone 5/SE */
+@media (height: 568px) {
+
+    .backgroundSuperior{
+        height: 13%;
+    }
+
+    .backgroundInferior{
+        height:87%;
+    }
+}

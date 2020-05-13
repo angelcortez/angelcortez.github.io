@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" class="fullscreen-bg">
+
+<head>
+	<title>Evidencias PWA</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<!-- VENDOR CSS -->
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../vendor/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../vendor/linearicons/style.css">
+	<!-- MAIN CSS -->
+	<link rel="stylesheet" href="../css/main.css">
+	<!-- <link rel="stylesheet" href="assets/css/personalizadosGenerales.css">	 -->
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+	<!-- ICONS -->
+	<link rel="apple-touch-icon" sizes="76x76" href="../img/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../img/iconoa.png">
+	<link rel="stylesheet" href="../css/personalizadosCapturarEvidencia.css">
+	<link rel="stylesheet" href="../css/personalizadosGenerales.css">
+</head>
+    <body>
+        <div id="wrapper">
+            <div class="vertical-align-wrap">
+                <div class="vertical-align-middle backgroundSuperior alignCenter padTop20">
+                    <a href="/assets/pages/evidencia.html" class="btnBackPage"><img src="/assets/img/back.png" alt=""></a>
+                    <h4 class="fontWhite titleSectionCapturarEvidencia" class="fontWhite">Capturar Evidencia</h4>
+                    <!-- <a class="btnGuardarEvidencia" href="">Guardar</a> -->
+                </div>
+                <div class="backgroundInferior">
+                    <div class="camara-contenedor fadeIn fast" align="center">                    
+                        <video id="player" autoplay></video>
+                        <div class="divBtnCamera">
+                            <button id="tomar-foto-btn">
+                                <i class="fa fa-camera"></i>
+                                Tomar Foto
+                            </button>
+                        </div>
+                        <div class="divBtnCamera">
+                            <button id="cancelar-foto-btn">
+                                <i class="fa fa-times"></i>
+                                Cancelar Foto
+                            </button>
+                        </div>
+                    </div>
+                    <!-- <div class="alignCenter containerBtnAgregarImagen">
+                        <a class="btnAgregarImagen" href="">Añadir imagen</a>
+                    </div> -->
+                    <!-- <div class="containerImagenesEvidencias">
+                        <img class="img-responsive" src="/assets/img/icons/icon-512x512.png" alt="">
+                        <a class="opcionEditar" href="">Ver más</a>
+                        <a class="opcionEliminar" href="">Eliminar</a>
+                    </div> -->
+                </div>
+            </div>
+        <div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+        <script src="https://kit.fontawesome.com/57456f662e.js" crossorigin="anonymous"></script>
+        <script src="/assets/js/camera-class.js"></script>
+	    <script src="/assets/js/app.js"></script>
+    </body>
+</html>

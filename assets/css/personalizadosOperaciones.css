@@ -1,0 +1,88 @@
+.backgroundInferior{
+    background-color: #fff;
+    width: 100%;
+    height: 88%;
+    float: left;
+}
+
+.backgroundSuperior{
+    background: rgb(10,51,139);
+    background: linear-gradient(90deg, rgba(10,51,139,1) 0%, rgba(66,119,233,1) 75%, rgba(86,133,233,1) 100%);
+    width: 100%;
+    height: 12%;
+    float: left;
+}
+
+.txtSearch{
+    margin-right: -3px;
+    width: 85%;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.searchBtn{
+    padding: 5px 5px 5px 5px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 15px;
+}
+
+.btnBackPage{
+    width: 10px;
+    height: 15px;
+    float: left;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+
+.titleSection{
+    width: 95%;
+}
+
+.spanColorOperations{
+    color:#909596;
+    font-size: 15px;
+}
+
+.containerInfoOperation{
+    display: inline-block;
+    height: 55px;
+    width: 100%;
+    border-bottom: 1px solid #E5E5E5;
+    padding: 5px 0px 0px 10px;
+}
+
+.iconInfoOperations{
+    margin-right: 5px;
+}
+
+.vertical-align-wrap {
+    display: block;
+}
+/* iphone X */
+@media (height: 812px) {
+
+    .backgroundSuperior{
+        height: 10%;
+    }
+
+    .backgroundInferior{
+        height:90%;
+    }
+}
+
+/* iphone 5/SE */
+@media (height: 568px) {
+
+    .backgroundSuperior{
+        height: 13%;
+    }
+
+    .backgroundInferior{
+        height:87%;
+    }
+}
