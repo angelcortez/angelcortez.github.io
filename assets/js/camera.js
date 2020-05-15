@@ -1,0 +1,64 @@
+var btnTomarFoto     = $('#tomar-foto-btn');
+var btnPhoto         = $('#btnCamara');
+var btnCancelarFoto = $('#cancelar-foto-btn');
+var contenedorCamara = $('.camara-contenedor');
+
+
+var lat  = null;
+var lng  = null; 
+var foto = null; 
+
+// Init de la camara class
+// document.getElementById('player');
+const camara = new Camara( $('#player')[0] );
+
+// Boton de la camara
+// usamos la funcion de fleca para prevenir
+// que jQuery me cambie el valor del this
+// btnPhoto.on('click', () => {
+
+//     console.log('Inicializar camara');
+//     contenedorCamara.addClass('displayBlock');
+
+//     camara.encender();
+
+// });
+
+window.onload = function() {
+    this.console.log('camara');
+    camara.encender();
+};
+
+btnCancelarFoto.on('click', () => {
+
+    console.log('Apagando camara');
+    contenedorCamara.removeClass('displayBlock');
+    contenedorCamara.addClass('displayNone');
+
+    camara.apagar();
+
+    // const btn = document.querySelector('.switch');
+    //     btn.addEventListener('click', function(){
+    //       track.applyConstraints({
+    //         advanced: [{torch: true}]
+    //       })
+    //     });
+
+});
+
+
+// Boton para tomar la foto
+btnTomarFoto.on('click', () => {
+
+    console.log('Botón tomar foto');
+
+    foto = camara.tomarFoto();
+
+    camara.apagar();
+    
+    // console.log(foto);
+
+});
+
+
+

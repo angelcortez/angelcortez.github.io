@@ -17,7 +17,7 @@ const APP_SHELL = [
     'assets/img/iconoa.png',
     'assets/img/login.png',
     'assets/img/logo_home_blanco.png',
-    'assets/js/app.js',
+    'assets/js/camera.js',
     'assets/js/camera-class.js',
     'assets/js/sw-utils.js',
     'assets/js/showHidePassword.js',
