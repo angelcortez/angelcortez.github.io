@@ -24,16 +24,34 @@ body,html{
 
 #btnOperaciones{
     border: 1px solid #efecec;
-    border-radius: 10px 0px 0px 0px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 5%;
+    background-color: #fff;
+}
+
+#btnHistorial{
+    border: 1px solid #efecec;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 5%;
+    background-color: #fff;
 }
 #btnCamara{
     border: 1px solid #efecec;
     border-radius: 0px 10px 0px 0px;
 }
-#btnUbicacion{
+#iconBtnHistorial{
     border: 1px solid #efecec;
-    border-radius: 0px 0px 0px 10px;
+    border: 1px solid #efecec;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
 }
+
 #btnPerfil{
     border: 1px solid #efecec;
     border-radius: 0px 0px 10px 0px;
@@ -45,6 +63,9 @@ body,html{
 
 .auth-box {
     width: 75%;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
 }
 
 .fontDescriptionBtn{
@@ -53,6 +74,22 @@ body,html{
     margin: 0px 5px 0px 5px;
 }
 
+
+.iconBtnOperaciones{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.iconBtnHistorial{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.tituloBtn{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
 /*Cámara*/
 
 #player{
