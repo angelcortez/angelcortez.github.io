@@ -9,7 +9,7 @@
 .iconUserMenuLateral{
     width: 70px;
     height: 70px;
-    margin-top: 40px;
+    margin-top: 30%;
 }
 
 .iconMenu{
@@ -110,7 +110,7 @@
     position: relative;
     font-family: 'Raleway';
     text-align: center;
-    padding: 1rem;
+    padding: 10px;
     text-decoration: none;
     color: #909596;
     z-index: 4;
