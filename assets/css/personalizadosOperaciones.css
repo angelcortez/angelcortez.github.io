@@ -37,20 +37,25 @@
     float: left;
     margin-left: 18px;
     margin-top: 8px;
+    position: absolute;
+    left: 0;
 }
 
 .titleSection{
-    width: 95%;
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 0% 15% 0% 15%;
 }
 
 .spanColorOperations{
     color:#909596;
     font-size: 15px;
+    width: 100%;
 }
 
 .containerInfoOperation{
     display: inline-block;
-    height: 55px;
     width: 100%;
     border-bottom: 1px solid #E5E5E5;
     padding: 5px 0px 0px 10px;
@@ -60,6 +65,24 @@
     margin-right: 5px;
 }
 
+.marginBottom5{
+    margin-bottom: 5px;
+}
+.textoOperacionesDescripcion{
+    width: 100%;
+}
+
+.imgIconOperaciones{
+    width: 15%;
+    height: 85%;
+    float: left;
+}
+
+.detalleInfoDescripcionOperacion{
+    width: 80%;
+    float: left;
+    height: 100%;
+}
 .vertical-align-wrap {
     display: block;
 }
@@ -79,10 +102,29 @@
 @media (height: 568px) {
 
     .backgroundSuperior{
-        height: 13%;
+        height: 15%;
     }
 
     .backgroundInferior{
-        height:87%;
+        height:85%;
+    }
+}
+
+/* ipad*/
+@media (min-height: 1024px) and (min-width: 768px)  {
+
+    .backgroundSuperior{
+        height: 10%;
+    }
+
+    .backgroundInferior{
+        height:90%;
+    }
+
+    .imgIconOperaciones {
+        width: 8%;
+    }
+    .detalleInfoDescripcionOperacion {
+        width: 87%;
     }
 }

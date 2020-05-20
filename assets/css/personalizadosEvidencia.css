@@ -20,10 +20,15 @@
     float: left;
     margin-left: 18px;
     margin-top: 8px;
+    position: absolute;
+    left: 0;
 }
 
 .titleSection{
-    width: 95%;
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 0% 15% 0% 15%;
 }
 
 .spanColorEvidencias{
@@ -43,11 +48,14 @@
     width: 100px;
     height: 30px;
     border: 1px solid white;
-    color:white;
+    color: white;
     border-radius: 10px;
     float: left;
     padding-top: 2px;
     margin-top: 5px;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
 }
 
 .btnAgregarImagen {
@@ -70,10 +78,10 @@
 }
 
 .titleSectionEvidencia {
-    width: 60%;
+    width: 100%;
     float: left;
-    text-align: left;
-    padding-left: 25px;
+    text-align: center;
+    padding: 0% 25% 0% 5%;
 }
 
 .divLeft{
@@ -96,28 +104,28 @@
 .containerImagenesEvidencias{
     width: 100%;
     height: auto;
-    padding: 0px 10% 20px 10%;
+    padding: 0px 15% 20px 15%;
 }
 
 .opcionEditar{
-    width:49%;
+    width: 48%;
     display: inline-block;
     text-align: right;
-    padding-right: 20px;
+    /* padding-right: 1%; */
     height: 40px;
     padding-top: 10px;
-    /* color:#484A4A; */
+    /* color: #484A4A; */
     font-size: 15px;
 }
 
 .opcionEliminar{
-    width: 50%;
+    width: 48%;
     display: inline-block;
     text-align: left;
-    padding-left: 20px;
+    padding-left: 10px;
     height: 40px;
     padding-top: 10px;
-    /* color:#484A4A; */
+    /* color: #484A4A; */
     font-size: 15px;
 }
 
@@ -145,5 +153,24 @@
 
     .backgroundInferior{
         height:87%;
+    }
+}
+
+/* ipad*/
+@media (min-height: 1024px) and (min-width: 768px)  {
+
+    .backgroundSuperior{
+        height: 10%;
+    }
+
+    .backgroundInferior{
+        height:90%;
+    }
+
+    .imgIconOperaciones {
+        width: 8%;
+    }
+    .detalleInfoDescripcionOperacion {
+        width: 87%;
     }
 }

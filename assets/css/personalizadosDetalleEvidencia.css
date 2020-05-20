@@ -20,6 +20,8 @@
     float: left;
     margin-left: 18px;
     margin-top: 8px;
+    position: absolute;
+    left: 0;
 }
 
 .titleSection{
@@ -40,10 +42,10 @@
 }
 
 .titleSectionCapturarEvidencia {
-    width: 90%;
+    width: 100%;
     float: left;
     text-align: center;
-    padding-left: 25px;
+    padding: 0% 15% 0% 15%;
 }
 
 .vertical-align-wrap {
@@ -56,7 +58,8 @@
 
 .contenedorImagenDetalleEvidencia{
     width: 100%;
-    padding: 0 20% 0px 20%;
+    padding: 0 15% 0px 15%;
+    margin-bottom: 15px;
 }
 
 .txtObservaciones{
@@ -109,5 +112,24 @@
 
     .backgroundInferior{
         height:87%;
+    }
+}
+
+/* ipad*/
+@media (min-height: 1024px) and (min-width: 768px)  {
+
+    .backgroundSuperior{
+        height: 10%;
+    }
+
+    .backgroundInferior{
+        height:90%;
+    }
+
+    .imgIconOperaciones {
+        width: 8%;
+    }
+    .detalleInfoDescripcionOperacion {
+        width: 87%;
     }
 }
